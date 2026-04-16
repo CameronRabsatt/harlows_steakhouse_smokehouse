@@ -8,8 +8,8 @@ function Home() {
           TODO: Replace the name, tagline, and button text with yours.
           ============================================================ */}
       <section className="hero">
-        <h1>[YOUR RESTAURANT NAME]</h1>
-        <p className="tagline">[YOUR TAGLINE HERE]</p>
+        <h1>[Harlows Steakhouse and Smokehouse]</h1>
+        <p className="tagline">[Crafted Slow. Served Gold.]</p>
         <Link to="/menu" className="cta-button">
           View Our Menu
         </Link>
@@ -24,9 +24,7 @@ function Home() {
         <div className="welcome-text">
           <h2>Welcome</h2>
           <p>
-            [Write a paragraph about your restaurant here. What do you serve?
-            What makes you special? Why should someone eat here? Use your
-            planning document to guide this section.]
+            [Harlow's was built on a simple belief: great barbecue and a great dining experience are not mutually exclusive. For a long time, the two existed in different worlds. Roadside pits on one side, white tablecloths on the other. I personally did not think that was the way it had to be, and Harlow's was the answer to that. The idea started with the food. We wanted cuts that were taken seriously, sourced from farms that do things the right way, and smoked the way they were meant to be smoked. No shortcuts, no timers cutting it short. Along with the food, we wanted the atmosphere to match. Dark wood, warm lighting, leather booths. It feels like a classic American steakhouse, but sharper. Because of this, Harlow's has become a restaurant people return to. Not just for the food, but for the full experience..]
           </p>
           <p style={{ marginTop: "1rem" }}>
             [Write a second paragraph. Maybe talk about your history, your
