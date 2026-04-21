@@ -4,10 +4,10 @@ function Home() {
   return (
     <div className="page">
       <section className="hero">
-        <h1>[Harlows Steakhouse and Smokehouse]</h1>
-        <p className="tagline">[Crafted Slow. Served Gold.]</p>
+        <h1>Harlows Steakhouse and Smokehouse</h1>
+        <p className="tagline">Crafted Slow. Served Bold. Delivered in Gold.</p>
         <Link to="/menu" className="cta-button">
-          View Our Menu
+          The Menu
         </Link>
       </section>
 
