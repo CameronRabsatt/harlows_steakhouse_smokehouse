@@ -13,27 +13,27 @@ function Location() {
             ============================================================ */}
         <div className="location-info">
           <h2>Address</h2>
-          <p>[YOUR STREET ADDRESS]</p>
-          <p>[YOUR CITY, STATE ZIP]</p>
-          <p className="phone">[YOUR PHONE NUMBER]</p>
+          <p>[1738 main street]</p>
+          <p>[Mooresville, NC ]</p>
+          <p className="phone">[402-204-6776]</p>
 
           <h2>Hours of Operation</h2>
           <div>
             <div className="hours-row">
               <span className="day">Monday – Thursday</span>
-              <span className="time">[YOUR HOURS]</span>
+              <span className="time">[1:00 pm - 10:00 pm]</span>
             </div>
             <div className="hours-row">
               <span className="day">Friday</span>
-              <span className="time">[YOUR HOURS]</span>
+              <span className="time">[1:00 pm - 11:00 pm]</span>
             </div>
             <div className="hours-row">
               <span className="day">Saturday</span>
-              <span className="time">[YOUR HOURS]</span>
+              <span className="time">[11:00 am - 10:00 pm]</span>
             </div>
             <div className="hours-row">
               <span className="day">Sunday</span>
-              <span className="time">[YOUR HOURS]</span>
+              <span className="time">[11:00 am - 8:00 pm]</span>
             </div>
           </div>
 

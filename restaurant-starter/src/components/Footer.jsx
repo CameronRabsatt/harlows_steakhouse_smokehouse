@@ -1,9 +1,8 @@
 function Footer() {
   return (
     <footer className="footer">
-      {/* TODO: Change this to YOUR restaurant name and address */}
-      <p>&copy; 2026 [YOUR RESTAURANT NAME]. All rights reserved.</p>
-      <p>[YOUR ADDRESS HERE]</p>
+      <p>&copy; 2026 [Harlows Steakhouse & Smokehouse]. All rights reserved.</p>
+      <p>[1738 Main Street]</p>
     </footer>
   );
 }
