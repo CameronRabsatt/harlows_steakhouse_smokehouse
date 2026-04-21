@@ -20,16 +20,13 @@ function About() {
           ============================================================ */}
       <div className="about-story">
         <p>
-          [Paragraph 1: How did your restaurant begin? Who started it? Was
-          there a special moment or inspiration? Tell the origin story.]
+          Harlow's started with a question: why did barbecue and fine dining have to be two separate things? In 2024, the founders opened Harlow's in Kansas City to answer that. Bring the craft of slow smoking into a space where it could be taken seriously.
         </p>
         <p>
-          [Paragraph 2: What happened next? How did it grow? What challenges
-          were overcome? What is the restaurant known for today?]
+          From the start, Harlow's built a reputation around doing things the right way. Sourcing quality, smoking every cut low and slow, never rushing what takes time. Today it is the place in Kansas City where you go when the meal actually matters.
         </p>
         <p>
-          [Paragraph 3: What is the restaurant's mission? What do you want
-          guests to feel when they visit? What keeps people coming back?]
+          The mission has always been simple. Give people a meal worth remembering in a room worth sitting in. The food is the reason for the first visit. The experience is the reason for every visit after that.
         </p>
       </div>
 
