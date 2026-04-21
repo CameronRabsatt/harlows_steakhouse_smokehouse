@@ -3,10 +3,6 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <div className="page">
-      {/* ============================================================
-          HERO SECTION
-          TODO: Replace the name, tagline, and button text with yours.
-          ============================================================ */}
       <section className="hero">
         <h1>[Harlows Steakhouse and Smokehouse]</h1>
         <p className="tagline">[Crafted Slow. Served Gold.]</p>
@@ -15,11 +11,7 @@ function Home() {
         </Link>
       </section>
 
-      {/* ============================================================
-          WELCOME SECTION
-          TODO: Write 1-2 paragraphs about YOUR restaurant.
-          What makes it special? What's your story?
-          ============================================================ */}
+
       <section className="welcome-section">
         <div className="welcome-text">
           <h2>Welcome</h2>
