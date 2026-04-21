@@ -13,34 +13,33 @@ function Location() {
             ============================================================ */}
         <div className="location-info">
           <h2>Address</h2>
-          <p>[1738 main street]</p>
-          <p>[Mooresville, NC ]</p>
-          <p className="phone">[402-204-6776]</p>
+          <p>1738 main street</p>
+          <p>Mooresville, NC </p>
+          <p className="phone">402-204-6776</p>
 
           <h2>Hours of Operation</h2>
           <div>
             <div className="hours-row">
               <span className="day">Monday – Thursday</span>
-              <span className="time">[1:00 pm - 10:00 pm]</span>
+              <span className="time">1:00 pm - 10:00 pm</span>
             </div>
             <div className="hours-row">
               <span className="day">Friday</span>
-              <span className="time">[1:00 pm - 11:00 pm]</span>
+              <span className="time">1:00 pm - 11:00 pm</span>
             </div>
             <div className="hours-row">
               <span className="day">Saturday</span>
-              <span className="time">[11:00 am - 10:00 pm]</span>
+              <span className="time">11:00 am - 10:00 pm</span>
             </div>
             <div className="hours-row">
               <span className="day">Sunday</span>
-              <span className="time">[11:00 am - 8:00 pm]</span>
+              <span className="time">11:00 am - 8:00 pm</span>
             </div>
           </div>
 
           <h2>Getting Here</h2>
           <p>
-            [Write 1-2 sentences about how to find your restaurant. Is there
-            parking? Are you near a landmark? Public transit?]
+            We are right off the highway, with plenty of parking in our lot. If you're using GPS, just enter our address and it should take you right to us. We can't wait to welcome you to Harlow's Steakhouse & Smokehouse!
           </p>
         </div>
 

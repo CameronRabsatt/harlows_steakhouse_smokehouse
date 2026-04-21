@@ -6,8 +6,8 @@ function About() {
           TODO: Change the heading and subtitle for YOUR restaurant.
           ============================================================ */}
       <div className="about-header">
-        <h1>About [YOUR RESTAURANT NAME]</h1>
-        <p className="subtitle">[A short subtitle about your restaurant]</p>
+        <h1>About Harlows Steakhouse & Smokehouse</h1>
+        <p className="subtitle">[The Fancy Barbeque]</p>
       </div>
 
       {/* ============================================================
@@ -45,21 +45,21 @@ function About() {
         <div className="team-grid">
           <div className="team-card">
             <div className="team-avatar">👨‍🍳</div>
-            <h3>[Team Member 1 Name]</h3>
-            <p className="role">[Their Role]</p>
-            <p>[A 1-2 sentence bio about this person.]</p>
+            <h3>Tyler Johnson Aka "Chef Big Sauce"</h3>
+            <p className="role">The Head Chef</p>
+            <p>Big Sauce is the mastermind behind our incredible menu, bringing years of experience and passion to every dish.</p>
           </div>
           <div className="team-card">
             <div className="team-avatar">👩‍💼</div>
-            <h3>[Team Member 2 Name]</h3>
-            <p className="role">[Their Role]</p>
-            <p>[A 1-2 sentence bio about this person.]</p>
+            <h3>Darlene Smith</h3>
+            <p className="role">General Manager</p>
+            <p>Darlene is the heart of our operation, ensuring every guest has an exceptional experience from the moment they walk in.</p>
           </div>
           <div className="team-card">
             <div className="team-avatar">👨‍🍳</div>
-            <h3>[Team Member 3 Name]</h3>
-            <p className="role">[Their Role]</p>
-            <p>[A 1-2 sentence bio about this person.]</p>
+            <h3>Chris Chambers</h3>
+            <p className="role">Sous Chef</p>
+            <p>Chris brings a wealth of knowledge and creativity to our kitchen, always striving to perfect each dish.</p>
           </div>
         </div>
       </div>
