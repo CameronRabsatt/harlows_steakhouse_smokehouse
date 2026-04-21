@@ -28,7 +28,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #181E51 ;
+  background-color: rgb(23, 29, 82) ;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -98,9 +98,9 @@
    ------------------------- */
 .hero {
   background: linear-gradient(
-      135deg,
-      rgba(25, 30, 82, 0.878),  
-      rgb(139, 26, 26, 0.7)   
+      180deg,
+      rgba(23, 29, 82, 0.99),  
+      rgb(139, 26, 26, 0.9)   
     );
   color: #F9F5F0;
   text-align: center;

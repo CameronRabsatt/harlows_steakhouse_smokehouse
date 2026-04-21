@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-brand">
-        <Link to="/">[Harlows Steakhouse & Smokehouse]</Link>
+        <Link to="/">Harlows Steakhouse & Smokehouse</Link>
       </div>
       <ul className="nav-links">
         <li>
