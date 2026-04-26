@@ -82,8 +82,16 @@ function Menu() {
               .map((item) => (
                 <div key={item.id} className="menu-item">
                   <h3>{item.name}</h3>
+                  {item.imageUrl && (
+                    <img
+                      src={item.imageUrl}
+                      alt={item.name}
+                      className="menu-image"
+                    />
+                  )}
                   <p className="description">{item.description}</p>
-                  <p className="price">${Number(item.price).toFixed(2)}</p>                </div>
+                  <p className="price">${Number(item.price).toFixed(2)}</p>
+                </div>
               ))}
           </div>
         </div>
