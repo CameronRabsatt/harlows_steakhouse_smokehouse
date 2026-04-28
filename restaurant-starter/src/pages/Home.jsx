@@ -37,8 +37,8 @@ function Home() {
         <div className="features">
           <div className="feature-card">
             <div className="feature-icon">🍽️</div>
-            <h3>[Feature 1 Title]</h3>
-            <p>[Describe what makes this feature special about your restaurant.]</p>
+            <h3>Prime Cuts, Done Right</h3>
+            <p>Every piece of meat we serve is sourced from farms that actually care about quality. We do not cut corners on what goes in, because it shows up on the plate every single time</p>
           </div>
           <div className="feature-card">
             <div className="feature-icon">⭐</div>
