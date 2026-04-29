@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { AnimatePresence, motion } from "framer-motion";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -12,17 +13,87 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <main className="main-content">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/menu" element={<Menu />} />
-          <Route path="/location" element={<Location />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </main>
+      <MainContent />
       <Footer />
     </BrowserRouter>
+  );
+}
+
+function MainContent() {
+  const location = useLocation();
+
+  return (
+    <main className="main-content">
+      <AnimatePresence mode="wait">
+        <Routes location={location} key={location.pathname}>
+          <Route
+            path="/"
+            element={
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -20 }}
+                transition={{ duration: 0.3 }}
+              >
+                <Home />
+              </motion.div>
+            }
+          />
+          <Route
+            path="/about"
+            element={
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -20 }}
+                transition={{ duration: 0.3 }}
+              >
+                <About />
+              </motion.div>
+            }
+          />
+          <Route
+            path="/menu"
+            element={
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -20 }}
+                transition={{ duration: 0.3 }}
+              >
+                <Menu />
+              </motion.div>
+            }
+          />
+          <Route
+            path="/location"
+            element={
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -20 }}
+                transition={{ duration: 0.3 }}
+              >
+                <Location />
+              </motion.div>
+            }
+          />
+          <Route
+            path="/contact"
+            element={
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -20 }}
+                transition={{ duration: 0.3 }}
+              >
+                <Contact />
+              </motion.div>
+            }
+          />
+        </Routes>
+      </AnimatePresence>
+    </main>
   );
 }
 

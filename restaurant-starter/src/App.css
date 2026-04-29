@@ -104,8 +104,12 @@
     );
   color: #F9F5F0;
   text-align: center;
-  padding: 6rem 2rem;
-  margin: -3rem -2rem 3rem -2rem;
+  width: 100vw;
+  height: 30vw;
+  margin-left: calc(-50vw + 50%);
+  margin-top: -3rem;
+  padding: 3rem 3rem;
+  margin-bottom: 5rem;
   border-bottom: 4px solid #B8860B; 
 }
 
@@ -316,7 +320,13 @@
   font-size: 2.5rem;
   color: #8B1A1A; /* TODO: YOUR primary color */
 }
-
+.menu-image {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
 .menu-header p {
   color: #888;
   font-style: italic;

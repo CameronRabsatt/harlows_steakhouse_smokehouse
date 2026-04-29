@@ -13,34 +13,33 @@ function Location() {
             ============================================================ */}
         <div className="location-info">
           <h2>Address</h2>
-          <p>[1738 main street]</p>
-          <p>[Mooresville, NC ]</p>
-          <p className="phone">[402-204-6776]</p>
+          <p>1738 main street</p>
+          <p>Mooresville, NC </p>
+          <p className="phone">402-204-6776</p>
 
           <h2>Hours of Operation</h2>
           <div>
             <div className="hours-row">
               <span className="day">Monday – Thursday</span>
-              <span className="time">[1:00 pm - 10:00 pm]</span>
+              <span className="time">1:00 pm - 10:00 pm</span>
             </div>
             <div className="hours-row">
               <span className="day">Friday</span>
-              <span className="time">[1:00 pm - 11:00 pm]</span>
+              <span className="time">1:00 pm - 11:00 pm</span>
             </div>
             <div className="hours-row">
               <span className="day">Saturday</span>
-              <span className="time">[11:00 am - 10:00 pm]</span>
+              <span className="time">11:00 am - 10:00 pm</span>
             </div>
             <div className="hours-row">
               <span className="day">Sunday</span>
-              <span className="time">[11:00 am - 8:00 pm]</span>
+              <span className="time">11:00 am - 8:00 pm</span>
             </div>
           </div>
 
           <h2>Getting Here</h2>
           <p>
-            [Write 1-2 sentences about how to find your restaurant. Is there
-            parking? Are you near a landmark? Public transit?]
+            We are right off the highway, with plenty of parking in our lot. If you're using GPS, just enter our address and it should take you right to us. We can't wait to welcome you to Harlow's Steakhouse & Smokehouse!
           </p>
         </div>
 
@@ -54,18 +53,9 @@ function Location() {
             4. Uncomment the iframe below and paste your URL
             ============================================================ */}
         <div className="map-container">
-          <div className="map-placeholder">
-            <p>
-              📍 Google Maps embed goes here
-              <br />
-              <small>(See instructions in the code comments)</small>
-            </p>
-          </div>
-
-          {/* UNCOMMENT THIS in Week 4 and replace the URL:
           <iframe
-            title="Restaurant Location"
-            src="YOUR_GOOGLE_MAPS_EMBED_URL_HERE"
+            title="Harlow's Location"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1315.1947677813212!2d-80.82797638193867!3d35.15164708264847!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88569f58b610e34b%3A0x66d994ce80bc5b5a!2sSteak%2048!5e0!3m2!1sen!2sus!4v1777425707784!5m2!1sen!2sus"
             width="100%"
             height="400"
             style={{ border: 0 }}
@@ -73,7 +63,6 @@ function Location() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
-          */}
         </div>
       </div>
     </div>

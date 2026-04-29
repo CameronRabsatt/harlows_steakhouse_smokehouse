@@ -1,65 +1,48 @@
 function About() {
   return (
     <div className="page">
-      {/* ============================================================
-          ABOUT HEADER
-          TODO: Change the heading and subtitle for YOUR restaurant.
-          ============================================================ */}
+      
       <div className="about-header">
-        <h1>About [YOUR RESTAURANT NAME]</h1>
-        <p className="subtitle">[A short subtitle about your restaurant]</p>
+        <h1>About Harlows Steakhouse & Smokehouse</h1>
+        <p className="subtitle">[The Fancy Barbeque]</p>
       </div>
 
-      {/* ============================================================
-          YOUR STORY
-          TODO: Write 2-3 paragraphs telling YOUR restaurant's story.
-          Be creative! You can make it all up. Think about:
-          - How did the restaurant start?
-          - Who founded it and why?
-          - What is the restaurant's mission or philosophy?
-          ============================================================ */}
+      
       <div className="about-story">
         <p>
-          [Paragraph 1: How did your restaurant begin? Who started it? Was
-          there a special moment or inspiration? Tell the origin story.]
+          Harlow's started with a question: why did barbecue and fine dining have to be two separate things? In 2024, the founders opened Harlow's in Kansas City to answer that. Bring the craft of slow smoking into a space where it could be taken seriously.
         </p>
         <p>
-          [Paragraph 2: What happened next? How did it grow? What challenges
-          were overcome? What is the restaurant known for today?]
+          From the start, Harlow's built a reputation around doing things the right way. Sourcing quality, smoking every cut low and slow, never rushing what takes time. Today it is the place in Kansas City where you go when the meal actually matters.
         </p>
         <p>
-          [Paragraph 3: What is the restaurant's mission? What do you want
-          guests to feel when they visit? What keeps people coming back?]
+          The mission has always been simple. Give people a meal worth remembering in a room worth sitting in. The food is the reason for the first visit. The experience is the reason for every visit after that.
         </p>
       </div>
 
       <div className="about-divider"></div>
 
-      {/* ============================================================
-          MEET THE TEAM
-          TODO: Create 2-3 fictional team members for YOUR restaurant.
-          Change the emoji, name, role, and bio for each person.
-          ============================================================ */}
+      
       <div className="team-section">
         <h2>Meet the Team</h2>
         <div className="team-grid">
           <div className="team-card">
             <div className="team-avatar">👨‍🍳</div>
-            <h3>[Team Member 1 Name]</h3>
-            <p className="role">[Their Role]</p>
-            <p>[A 1-2 sentence bio about this person.]</p>
+            <h3>Tyler Johnson Aka "Chef Big Sauce"</h3>
+            <p className="role">The Head Chef</p>
+            <p>Big Sauce is the mastermind behind our incredible menu, bringing years of experience and passion to every dish.</p>
           </div>
           <div className="team-card">
             <div className="team-avatar">👩‍💼</div>
-            <h3>[Team Member 2 Name]</h3>
-            <p className="role">[Their Role]</p>
-            <p>[A 1-2 sentence bio about this person.]</p>
+            <h3>Darlene Smith</h3>
+            <p className="role">General Manager</p>
+            <p>Darlene is the heart of our operation, ensuring every guest has an exceptional experience from the moment they walk in.</p>
           </div>
           <div className="team-card">
             <div className="team-avatar">👨‍🍳</div>
-            <h3>[Team Member 3 Name]</h3>
-            <p className="role">[Their Role]</p>
-            <p>[A 1-2 sentence bio about this person.]</p>
+            <h3>Chris Chambers</h3>
+            <p className="role">Sous Chef</p>
+            <p>Chris brings a wealth of knowledge and creativity to our kitchen, always striving to perfect each dish.</p>
           </div>
         </div>
       </div>
