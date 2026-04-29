@@ -23,16 +23,11 @@ function Home() {
           </p>
         </div>
         <div className="welcome-image">
-          {/* TODO: Replace with an <img> tag once you add images in Week 4 */}
-          📸 Add your restaurant photo here
+          <img src="/Harlows.png" alt="Harlows Steakhouse" />
         </div>
       </section>
 
-      {/* ============================================================
-          FEATURE CARDS
-          TODO: Change the icons, titles, and descriptions below
-          to highlight 3 things that make YOUR restaurant special.
-          ============================================================ */}
+      
       <section>
         <div className="features">
           <div className="feature-card">
@@ -42,13 +37,13 @@ function Home() {
           </div>
           <div className="feature-card">
             <div className="feature-icon">⭐</div>
-            <h3>[Feature 2 Title]</h3>
-            <p>[Describe another highlight of your restaurant.]</p>
+            <h3>Low and Slow, Always</h3>
+            <p>Nothing at Harlow's is rushed. Every brisket, every rack, every cut goes through the same process it always has. Time is the ingredient most places skip. We do not.</p>
           </div>
           <div className="feature-card">
             <div className="feature-icon">❤️</div>
-            <h3>[Feature 3 Title]</h3>
-            <p>[Describe a third thing that sets you apart.]</p>
+            <h3>The Full Experience</h3>
+            <p>From the moment you walk in, you're immersed in an atmosphere that combines the warmth of a classic steakhouse with the boldness of our smokehouse.</p>
           </div>
         </div>
       </section>

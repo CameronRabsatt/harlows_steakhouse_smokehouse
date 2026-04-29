@@ -53,18 +53,9 @@ function Location() {
             4. Uncomment the iframe below and paste your URL
             ============================================================ */}
         <div className="map-container">
-          <div className="map-placeholder">
-            <p>
-              📍 Google Maps embed goes here
-              <br />
-              <small>(See instructions in the code comments)</small>
-            </p>
-          </div>
-
-          {/* UNCOMMENT THIS in Week 4 and replace the URL:
           <iframe
-            title="Restaurant Location"
-            src="YOUR_GOOGLE_MAPS_EMBED_URL_HERE"
+            title="Harlow's Location"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1315.1947677813212!2d-80.82797638193867!3d35.15164708264847!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88569f58b610e34b%3A0x66d994ce80bc5b5a!2sSteak%2048!5e0!3m2!1sen!2sus!4v1777425707784!5m2!1sen!2sus"
             width="100%"
             height="400"
             style={{ border: 0 }}
@@ -72,7 +63,6 @@ function Location() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
-          */}
         </div>
       </div>
     </div>
