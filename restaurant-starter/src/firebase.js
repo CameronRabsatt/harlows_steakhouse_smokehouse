@@ -3,13 +3,13 @@ import { getFirestore } from "firebase/firestore";
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAhn_3EK7WOQbrZSrf6J0vailZtzAgXrbs",
-  authDomain: "harlows-steak-and-smoke.firebaseapp.com",
-  projectId: "harlows-steak-and-smoke",
-  storageBucket: "harlows-steak-and-smoke.firebasestorage.app",
-  messagingSenderId: "6049886685",
-  appId: "1:6049886685:web:8cacc3d626d7abd2930634",
-  measurementId: "G-MZLJ2BQ1XY"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 const app = initializeApp(firebaseConfig);
