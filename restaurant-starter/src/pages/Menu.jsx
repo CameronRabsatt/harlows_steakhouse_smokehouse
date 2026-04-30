@@ -62,8 +62,25 @@ function Menu() {
     );
   }
 
-  // Group items by category
-  const categories = [...new Set(menuItems.map((item) => item.category))];
+  // Group items by category and sort in the requested order
+  const categoryOrder = ["Entrees", "Apps", "Refreshments", "Sweet Treats"];
+  const categories = [...new Set(menuItems.map((item) => item.category))].sort(
+    (a, b) => {
+      const indexA = categoryOrder.indexOf(a);
+      const indexB = categoryOrder.indexOf(b);
+
+      if (indexA === -1 && indexB === -1) {
+        return a.localeCompare(b);
+      }
+      if (indexA === -1) {
+        return 1;
+      }
+      if (indexB === -1) {
+        return -1;
+      }
+      return indexA - indexB;
+    }
+  );
 
   return (
     <div className="page">
